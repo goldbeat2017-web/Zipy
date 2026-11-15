@@ -1,0 +1,13 @@
+// Cloudflare settings for the Aizipy website (Worker "zipy").
+{
+  "name": "zipy",
+  "main": "src/server.js",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "observability": { "enabled": true }
+}
