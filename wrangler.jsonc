@@ -1,6 +1,6 @@
 // Cloudflare settings for the Aizipy website (Worker "zipy").
 {
-  "name": "aizipy",
+  "name": "zipy",
   "main": "src/server.js",
   "compatibility_date": "2026-06-01",
   "assets": {
