@@ -1,0 +1,12 @@
+wrangler.jsonc
+.assetsignore
+package.json
+package-lock.json
+README.md
+src
+api
+functions
+vercel.json
+node_modules
+.git
+.wrangler
