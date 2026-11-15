@@ -38,6 +38,11 @@ From then on, any file you change on GitHub goes live automatically.
 Without the API key the site still works — it falls back to a simple
 "most talking" picker instead of AI picks.
 
+## Paste-a-link (YouTube, Twitch, Kick…)
+Links are handled by the download server in `aizipy-server` (see its SETUP.md).
+Once it runs, set `window.AIZIPY_SERVER = "https://api.aizipy.com";` near the
+bottom of `index.html`. Fill in `terms.html` (date + contact email) too.
+
 ## Getting found on Google
 The page already has: SEO title and description, keywords, canonical URL,
 social share previews (og-image.png), structured data (web app, how-to, FAQ),
